@@ -108,7 +108,7 @@ export default class PokemonClient {
 ```
 ### Studying React
 > **Example code**
-> 
+
 ```sh
 
 class App extends React.Component {
