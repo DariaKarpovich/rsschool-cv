@@ -51,6 +51,7 @@ _Minsk, Belarus_
 > **Example code**
 
 ```sh
+
 export default class PokemonClient {
   constructor(intialUrl) {
     this.intialUrl = intialUrl;
@@ -107,8 +108,9 @@ export default class PokemonClient {
 ```
 ### Studying React
 > **Example code**
-##
+> 
 ```sh
+
 class App extends React.Component {
   constructor() {
     super();
@@ -158,5 +160,6 @@ class App extends React.Component {
 }
 
 export default App;
+
 ```
 
