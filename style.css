@@ -1,0 +1,269 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    border: 1px solid #000000;
+    max-width: 1185px;
+    height: 1680px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.article-left {
+    width: 410px;
+    height: 1680px;
+    background-color: #3e4046;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-left-item {
+    width: 100%;
+    margin-left: 60px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-image: url(assets/img/photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-left h2 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.contact img {
+    width: 25px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.contact img:nth-last-child(1) {
+    width: 30px;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.skills {
+    height: 480px;
+}
+
+.skills-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.slider img {
+    position: absolute;
+}
+
+.skills h5 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0 0 10px;
+}
+
+.follow h5 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin: 20px 0 20px;
+}
+
+.follow p {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 40px;
+}
+
+
+.article-right {
+    width: 775px;
+    height: 1680px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-right-item {
+    margin-left: 50px;
+}
+
+.text-right p {
+    margin: 0;
+}
+
+.text-right {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #3e4146;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 30px 0;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    color: #3e4146;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-right: 45px;
+    width: 260px;
+}
+
+.descr {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.article-right h1 {
+    font-size: 68px;
+    color: #3e4146;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin: 110px 50px 0;
+}
+
+.article-right h2 {
+    font-size: 28px;
+    color: #3e4146;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.article-right h3 {
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #3e4146;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0 50px 120px;
+}
+
+.bg-img {
+    background-color: #3e4146;
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+    margin-right: 50px;
+}
+
+.bg-img img {
+    position: relative;
+    left: 10px;
+    top: 8px;
+    width: 34px;
+    height: 34px;
+}
+
+.about {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #3e4146;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.about h5 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #3e4146;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 30px 0;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.english {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #3e4146;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 30px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: #3e4046;
+    height: 95px;
+    width: 100%;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
